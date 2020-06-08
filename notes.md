@@ -36,3 +36,8 @@ INSERT INTO Shippers ('ShipperName', 'Phone')VALUES ('LS Shipping', '(212) 222-1
 
 -- Add a new shipper
 INSERT INTO Shippers ('ShipperName', 'Phone')VALUES ('LS Shipping', '(212) 222-1212');
+
+--Update shippers first run a query to check id is there
+select \* from Shippers where shipperId = 4
+-- then
+UPDATE Shippers SET ShipperName = 'Lambda Shippers', Phone = '(800) 333-3333' WHERE ShipperId = 4;
