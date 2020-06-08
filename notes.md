@@ -33,3 +33,6 @@ select \* from customers order by customerId limit 10;
 
 -- Add a new shipper
 INSERT INTO Shippers ('ShipperName', 'Phone')VALUES ('LS Shipping', '(212) 222-1212');
+
+-- Add a new shipper
+INSERT INTO Shippers ('ShipperName', 'Phone')VALUES ('LS Shipping', '(212) 222-1212');
